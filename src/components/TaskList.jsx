@@ -16,9 +16,9 @@ const TaskList = () => {
     return categoryMatch && statusMatch && startDateMatch && endDateMatch;
   });
 
-  if (!filteredTasks.length) {
-    return <Typography variant="body1">No tasks available.</Typography>;
-  }
+  // if (!filteredTasks.length) {
+  //   return <Typography variant="body1">No tasks available.</Typography>;
+  // }
 
   return (
     <>
