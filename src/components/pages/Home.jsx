@@ -8,7 +8,7 @@ import TaskSummary from '../TaskSummary';
 const Home = () => {
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom style={{marginBottom:'100px'}}>
         Task Manager
       </Typography>
       <Grid container spacing={3}>
