@@ -26,7 +26,7 @@ const TaskItem = ({ task }) => {
         </Box>
         <Box sx={{ display: 'flex', gap: 1 }}>
           <Checkbox checked={task.completed} onChange={toggleComplete} />
-          <button onClick={removeTask} style={{backgroundColor:'red', color:'red', border: 'none', background: 'transparent', cursor: 'pointer' }}>
+          <button onClick={removeTask} style={{backgroundColor:'red', color:'red', border: '1px solid black', background: 'transparent', cursor: 'pointer' }}>
             Delete
           </button>
         </Box>
